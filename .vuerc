@@ -1,0 +1,75 @@
+{
+    "useConfigFiles": false,
+    "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-eslint": {
+            "config": "base",
+            "lintOn": [
+                "save",
+                "commit"
+            ]
+        }
+    },
+    "configs": {
+        "eslintConfig": {
+            "root": true,
+            "env": {
+                "node": true
+            },
+            "extends": [
+                "plugin:vue/essential",
+                "eslint:recommended"
+            ],
+            "rules": {
+                "no-var": "error",
+                "no-debugger": "error",
+                "indent": [
+                    "error",
+                    4
+                ],
+                "no-console": "error",
+                "semi": [
+                    "error",
+                    "always"
+                ],
+                "semi-style": [
+                    "error",
+                    "last"
+                ],
+                "semi-spacing": [
+                    "error",
+                    {
+                        "before": false,
+                        "after": true
+                    }
+                ],
+                "no-dupe-keys": "error",
+                "no-eval": "error",
+                "no-alert": "error",
+                "no-eq-null": "error",
+                "max-len": [
+                    "error",
+                    {
+                        "code": 120
+                    }
+                ],
+                "max-lines": [
+                    "error",
+                    {
+                        "max": 200,
+                        "skipBlankLines": true,
+                        "skipComments": true
+                    }
+                ]
+
+            },
+            "parserOptions": {
+                "parser": "babel-eslint"
+            }
+        }
+    },
+    "router": true,
+    "routerHistoryMode": true,
+    "vuex": true,
+    "cssPreprocessor": "less"
+}
