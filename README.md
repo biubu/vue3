@@ -10,7 +10,7 @@
 ### 使用方法:
 > 确保你安装了官方最新版的`@vue/cli`,如果没有安装，请参照[官方文档](https://cli.vuejs.org/zh/guide/installation.html)正确安装。
 
-` vue create --preset wjqh/vue3 your_project_name`
+` vue create --preset biubu/vue3 your_project_name`
 
 ---
 
